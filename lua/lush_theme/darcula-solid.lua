@@ -48,7 +48,7 @@ local pop     = c7
 
 -- Color palette
 local red     = hsl("#ff6b68")
-local orange  = hsl(27, 61, 50)
+local orange  = hsl("#cd7832")
 local yellow  = hsl("#d6bf55")
 
 local green   = hsl("#6a8759")
@@ -193,7 +193,7 @@ PreCondit      { PreProc };    -- preprocessor #if, #else, #endif, etc.
 
 Type           { fg=orange };
 StorageClass   { fg=magenta };    -- static, register, volatile, etc.
-Structure      { fg=magenta };    -- struct, union, enum, etc.
+Structure      { fg=orange };    -- struct, union, enum, etc.
 Typedef        { Type };
 
 Special        { fg=orange };  -- (preferred) any special symbol
