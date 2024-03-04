@@ -55,7 +55,7 @@ local green   = hsl("#126e00")
 local teal    = hsl("#4581eb")
 
 local blue    = hsl("#4581eb")
-local purple  = hsl("#fa54ff")
+local purple  = hsl(279, 30, 62)
 local magenta = hsl("#fa54ff")
 
 
