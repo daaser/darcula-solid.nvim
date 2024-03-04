@@ -49,7 +49,7 @@ local pop     = c7
 -- Color palette
 local red     = hsl("#c75450")
 local orange  = hsl(27, 61, 50)
-local yellow  = hsl("#ffff00")
+local yellow  = hsl("#d6bf55")
 
 local green   = hsl("#499c54")
 local teal    = hsl("#4581eb")
