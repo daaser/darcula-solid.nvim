@@ -56,7 +56,7 @@ local teal    = hsl("#4581eb")
 
 local blue    = hsl("#7eaef1")
 local purple  = hsl(279, 30, 62)
-local magenta = hsl("#ff99ff")
+local magenta = hsl("#ae8abe")
 
 
 return lush(function(injected_functions) 
