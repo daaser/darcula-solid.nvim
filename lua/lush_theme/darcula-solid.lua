@@ -47,16 +47,16 @@ local faded   = fg.darken(45)    -- non-important text elements
 local pop     = c7
 
 -- Color palette
-local red     = hsl("#c75450")
+local red     = hsl("#FF6B68")
 local orange  = hsl(27, 61, 50)
-local yellow  = hsl("#d6bf55")
+local yellow  = hsl("#D6BF55")
 
-local green   = hsl("#499c54")
-local teal    = hsl("#4581eb")
+local green   = hsl("#A8C023")
+local teal    = hsl("#299999")
 
-local blue    = hsl("#7eaef1")
+local blue    = hsl("#5394EC")
 local purple  = hsl(279, 30, 62)
-local magenta = hsl("#ae8abe")
+local magenta = hsl("#AE8ABE")
 
 
 return lush(function(injected_functions) 
