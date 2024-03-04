@@ -35,10 +35,10 @@ local c7 = c6.lighten(80)
 
 -- Set base colors
 local bg      = c0    -- base background
-local overbg  = c1    -- other backgrounds
-local subtle  = c2    -- out-of-buffer elements
+local overbg  = c0    -- other backgrounds
+local subtle  = c0    -- out-of-buffer elements
 
-local fg      = hsl(210, 7, 82)
+local fg      = hsl("#adadad")
 local comment = hsl(0, 0, 54)    -- comments
 local folder  = hsl(202, 9, 57)
 local treebg  = hsl(220, 3, 19)
@@ -47,18 +47,16 @@ local faded   = fg.darken(45)    -- non-important text elements
 local pop     = c7
 
 -- Color palette
-local red     = hsl(1, 77, 59)
-local salmon  = hsl(10,  90, 70)
+local red     = hsl("#fa5355")
 local orange  = hsl(27, 61, 50)
-local yellow  = hsl(37, 100, 71)
+local yellow  = hsl("#c2c300")
 
-local green   = hsl(83, 27, 53)
-local teal    = hsl(150,  40, 50)
-local cyan    = hsl(180, 58, 38)
+local green   = hsl("#126e00")
+local teal    = hsl("#4581eb")
 
-local blue    = hsl(215, 80, 63).li(10)
-local purple  = hsl(279, 30, 62)
-local magenta = hsl(310,  40, 70)
+local blue    = hsl("#4581eb")
+local purple  = hsl("#fa54ff")
+local magenta = hsl("#fa54ff")
 
 
 return lush(function(injected_functions) 
