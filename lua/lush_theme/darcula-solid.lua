@@ -95,7 +95,7 @@ WildMenu     { Pmenu };                    -- current match in 'wildmenu' comple
 QuickFixLine { fg=pop };                   -- Current |quickfix| item in the quickfix window
 
 StatusLine   { fg=fg,   bg=subtle };
-StatusLineNC { fg=fd,   bg=overbg };
+StatusLineNC { fg=fg,   bg=overbg };
 
 TabLine      { bg=mid };                   -- not active tab page label
 TabLineFill  { bg=overbg };                -- where there are no labels
