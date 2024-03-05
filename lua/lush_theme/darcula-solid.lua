@@ -55,7 +55,7 @@ local green   = hsl("#6a8759")
 local teal    = hsl("#299999")
 
 local blue    = hsl("#5394ec")
-local purple  = hsl(279, 30, 62)
+local purple  = hsl("#a781bb")
 local magenta = hsl("#9373a5")
 
 
@@ -80,7 +80,7 @@ CursorColumn { bg=subtle };
 CursorLine   { CursorColumn };
 MatchParen   { fg=pop,     bg=mid };
 
-LineNr       { fg=faded };
+LineNr       { fg=fg };
 CursorLineNr { fg=orange };
 SignColumn   { LineNr };
 VertSplit    { fg=overbg,  bg=bg };    -- column separating vertically split windows
@@ -94,8 +94,8 @@ PmenuThumb   { PmenuSel };                 -- Thumb of the scrollbar
 WildMenu     { Pmenu };                    -- current match in 'wildmenu' completion
 QuickFixLine { fg=pop };                   -- Current |quickfix| item in the quickfix window
 
-StatusLine   { bg=subtle };
-StatusLineNC { fg=faded,   bg=overbg };
+StatusLine   { fg=fg,   bg=subtle };
+StatusLineNC { fg=fd,   bg=overbg };
 
 TabLine      { bg=mid };                   -- not active tab page label
 TabLineFill  { bg=overbg };                -- where there are no labels
@@ -193,7 +193,7 @@ PreCondit      { PreProc };    -- preprocessor #if, #else, #endif, etc.
 
 Type           { fg=orange };
 StorageClass   { fg=magenta };    -- static, register, volatile, etc.
-Structure      { fg=magenta };    -- struct, union, enum, etc.
+Structure      { fg=orange };    -- struct, union, enum, etc.
 Typedef        { Type };
 
 Special        { fg=orange };  -- (preferred) any special symbol
@@ -272,6 +272,8 @@ sym "@text.literal"             { String };                -- Literal text
 sym "@text.uri"                 { fg=green, gui=it };      -- Any URI like a link or email
 
 sym "@error"                    { fg=red };                -- syntax/parser errors.
+
+sym "@lsp.type.namespace"       { fg=magenta };
 
 
 -- Other stuff
