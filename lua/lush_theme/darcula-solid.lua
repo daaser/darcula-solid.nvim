@@ -64,7 +64,7 @@ local sym = injected_functions.sym
 return {
 Normal       { fg=fg,      bg=bg };
 NormalFloat  { fg=fg,      bg=overbg };
-NormalNC     { fg=fg,      bg=bg.da(10) }; -- normal text in non-current windows
+NormalNC     { fg=fg,      bg=bg }; -- normal text in non-current windows
 
 Comment      { fg=comment,  gui=it };
 Whitespace   { fg=mid };                  -- 'listchars'
